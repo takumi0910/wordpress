@@ -1,0 +1,75 @@
+
+/*
+theme Name: theme1
+Author: takumi
+Description: task4
+version: 1.0.0
+*/
+
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to right, #cccccc 0%, #cccccc 50%, white 50%, white 100%);
+}
+
+.header .header-menu{
+    width: 380px;
+    margin-left: auto;
+}
+
+.header .header-menu ul{
+    display: flex;
+    list-style: none;
+    padding-top: 38px;
+    padding-left: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.header .header-menu ul li{
+    padding-right: 25px;
+    padding-bottom: 34px;
+    font-family: "游ゴシック Medium", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.header .header-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .header-img1{
+    background-image: url(img/logo.png);
+    width: 175px;
+    height: 280px;
+    position: absolute;
+    top: 48px;
+    left: 25px;
+}
+
+.header .header-img2{
+    background-image: url(img/main-image.png);
+    width: 1023px;
+    height: 838px;
+    margin-left: auto;
+    display: block;
+}
+
+.header .title h2{
+    position: absolute;
+    top: 420px;
+    left: 155px;
+    color: white;
+    font-size: 44px;
+    font-family: "游ゴシック Medium", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;   
+}
+
+.concept .concept-top{
+    display: flex;
+    padding: 80px 155px 0 80px;
+}
+
+padding-right: 120px;
